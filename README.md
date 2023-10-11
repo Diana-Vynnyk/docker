@@ -8,7 +8,7 @@ docker rm <container_id>    # Removes a stopped container
 
 docker rm -f <container_id> # Forces the removal of a running container (uses SIGKILL)
 
-docker rmi <image_id>       # Removes an image 
+docker rmi <image_id>       # Removes an image or docker image rm <image_id>
                             # Will fail if there is a running instance of that image i.e. container
 
 docker rmi -f <image_id>    # Forces removal of image even if it is referenced in multiple repositories, 
